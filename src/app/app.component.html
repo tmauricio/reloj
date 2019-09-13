@@ -1,0 +1,105 @@
+<div class="row">
+  <div class="col-2">
+      <div style="float: left; width: 25%;" *ngFor="let reloj of relojesNumero_1; let i = index;">
+        <div class="reloj">
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-45': reloj.position_1 == 45, 'gira-90': reloj.position_1 == 90, 'gira-135': reloj.position_1 == 135, 'gira-180': reloj.position_1 == 180, 'gira-225': reloj.position_1 == 225, 'gira-270': reloj.position_1 == 270, 'gira-315': reloj.position_1 == 315,
+                                        'girado-0': reloj.pos_final_1 == 0, 'girado-45': reloj.pos_final_1 == 45, 'girado-90': reloj.pos_final_1 == 90, 'girado-135': reloj.pos_final_1 == 135, 'girado-180': reloj.pos_final_1 == 180, 'girado-225': reloj.pos_final_1 == 225, 'girado-270': reloj.pos_final_1 == 270, 'girado-315': reloj.pos_final_1 == 315}">
+            <div class="contenido"></div>
+          </div>
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-45': reloj.position_2 == 45, 'gira-90': reloj.position_2 == 90, 'gira-135': reloj.position_2 == 135, 'gira-180': reloj.position_2 == 180, 'gira-225': reloj.position_2 == 225, 'gira-270': reloj.position_2 == 270, 'gira-315': reloj.position_2 == 315,
+                                        'girado-0': reloj.pos_final_2 == 0, 'girado-45': reloj.pos_final_2 == 45, 'girado-90': reloj.pos_final_2 == 90, 'girado-135': reloj.pos_final_2 == 135, 'girado-180': reloj.pos_final_2 == 180, 'girado-225': reloj.pos_final_2 == 225, 'girado-270': reloj.pos_final_2 == 270, 'girado-315': reloj.pos_final_2 == 315}">
+            <div class="contenido"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="col-2">
+      <div style="float: left; width: 25%;" *ngFor="let reloj of relojesNumero_2; let i = index;">
+        <div class="reloj">
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-45': reloj.position_1 == 45, 'gira-90': reloj.position_1 == 90, 'gira-135': reloj.position_1 == 135, 'gira-180': reloj.position_1 == 180, 'gira-225': reloj.position_1 == 225, 'gira-270': reloj.position_1 == 270, 'gira-315': reloj.position_1 == 315,
+                                        'girado-0': reloj.pos_final_1 == 0, 'girado-45': reloj.pos_final_1 == 45, 'girado-90': reloj.pos_final_1 == 90, 'girado-135': reloj.pos_final_1 == 135, 'girado-180': reloj.pos_final_1 == 180, 'girado-225': reloj.pos_final_1 == 225, 'girado-270': reloj.pos_final_1 == 270, 'girado-315': reloj.pos_final_1 == 315}">
+            <div class="contenido"></div>
+          </div>
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-45': reloj.position_2 == 45, 'gira-90': reloj.position_2 == 90, 'gira-135': reloj.position_2 == 135, 'gira-180': reloj.position_2 == 180, 'gira-225': reloj.position_2 == 225, 'gira-270': reloj.position_2 == 270, 'gira-315': reloj.position_2 == 315,
+                                        'girado-0': reloj.pos_final_2 == 0, 'girado-45': reloj.pos_final_2 == 45, 'girado-90': reloj.pos_final_2 == 90, 'girado-135': reloj.pos_final_2 == 135, 'girado-180': reloj.pos_final_2 == 180, 'girado-225': reloj.pos_final_2 == 225, 'girado-270': reloj.pos_final_2 == 270, 'girado-315': reloj.pos_final_2 == 315}">
+            <div class="contenido"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="col-2">
+      <div style="float: left; width: 25%;" *ngFor="let reloj of relojesPuntos; let i = index;">
+        <div class="reloj">
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-45': reloj.position_1 == 45, 'gira-90': reloj.position_1 == 90, 'gira-135': reloj.position_1 == 135, 'gira-180': reloj.position_1 == 180, 'gira-225': reloj.position_1 == 225, 'gira-270': reloj.position_1 == 270, 'gira-315': reloj.position_1 == 315,
+                                        'girado-0': reloj.pos_final_1 == 0, 'girado-45': reloj.pos_final_1 == 45, 'girado-90': reloj.pos_final_1 == 90, 'girado-135': reloj.pos_final_1 == 135, 'girado-180': reloj.pos_final_1 == 180, 'girado-225': reloj.pos_final_1 == 225, 'girado-270': reloj.pos_final_1 == 270, 'girado-315': reloj.pos_final_1 == 315}">
+            <div class="contenido"></div>
+          </div>
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-45': reloj.position_2 == 45, 'gira-90': reloj.position_2 == 90, 'gira-135': reloj.position_2 == 135, 'gira-180': reloj.position_2 == 180, 'gira-225': reloj.position_2 == 225, 'gira-270': reloj.position_2 == 270, 'gira-315': reloj.position_2 == 315,
+                                        'girado-0': reloj.pos_final_2 == 0, 'girado-45': reloj.pos_final_2 == 45, 'girado-90': reloj.pos_final_2 == 90, 'girado-135': reloj.pos_final_2 == 135, 'girado-180': reloj.pos_final_2 == 180, 'girado-225': reloj.pos_final_2 == 225, 'girado-270': reloj.pos_final_2 == 270, 'girado-315': reloj.pos_final_2 == 315}">
+            <div class="contenido"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="col-2">
+      <div style="float: left; width: 25%;" *ngFor="let reloj of relojesNumero_3; let i = index;">
+        <div class="reloj">
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-45': reloj.position_1 == 45, 'gira-90': reloj.position_1 == 90, 'gira-135': reloj.position_1 == 135, 'gira-180': reloj.position_1 == 180, 'gira-225': reloj.position_1 == 225, 'gira-270': reloj.position_1 == 270, 'gira-315': reloj.position_1 == 315,
+                                        'girado-0': reloj.pos_final_1 == 0, 'girado-45': reloj.pos_final_1 == 45, 'girado-90': reloj.pos_final_1 == 90, 'girado-135': reloj.pos_final_1 == 135, 'girado-180': reloj.pos_final_1 == 180, 'girado-225': reloj.pos_final_1 == 225, 'girado-270': reloj.pos_final_1 == 270, 'girado-315': reloj.pos_final_1 == 315}">
+            <div class="contenido"></div>
+          </div>
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-45': reloj.position_2 == 45, 'gira-90': reloj.position_2 == 90, 'gira-135': reloj.position_2 == 135, 'gira-180': reloj.position_2 == 180, 'gira-225': reloj.position_2 == 225, 'gira-270': reloj.position_2 == 270, 'gira-315': reloj.position_2 == 315,
+                                        'girado-0': reloj.pos_final_2 == 0, 'girado-45': reloj.pos_final_2 == 45, 'girado-90': reloj.pos_final_2 == 90, 'girado-135': reloj.pos_final_2 == 135, 'girado-180': reloj.pos_final_2 == 180, 'girado-225': reloj.pos_final_2 == 225, 'girado-270': reloj.pos_final_2 == 270, 'girado-315': reloj.pos_final_2 == 315}">
+            <div class="contenido"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="col-2">
+      <div style="float: left; width: 25%;" *ngFor="let reloj of relojesNumero_4; let i = index;">
+        <div class="reloj">
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-45': reloj.position_1 == 45, 'gira-90': reloj.position_1 == 90, 'gira-135': reloj.position_1 == 135, 'gira-180': reloj.position_1 == 180, 'gira-225': reloj.position_1 == 225, 'gira-270': reloj.position_1 == 270, 'gira-315': reloj.position_1 == 315,
+                                        'girado-0': reloj.pos_final_1 == 0, 'girado-45': reloj.pos_final_1 == 45, 'girado-90': reloj.pos_final_1 == 90, 'girado-135': reloj.pos_final_1 == 135, 'girado-180': reloj.pos_final_1 == 180, 'girado-225': reloj.pos_final_1 == 225, 'girado-270': reloj.pos_final_1 == 270, 'girado-315': reloj.pos_final_1 == 315}">
+            <div class="contenido"></div>
+          </div>
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-45': reloj.position_2 == 45, 'gira-90': reloj.position_2 == 90, 'gira-135': reloj.position_2 == 135, 'gira-180': reloj.position_2 == 180, 'gira-225': reloj.position_2 == 225, 'gira-270': reloj.position_2 == 270, 'gira-315': reloj.position_2 == 315,
+                                        'girado-0': reloj.pos_final_2 == 0, 'girado-45': reloj.pos_final_2 == 45, 'girado-90': reloj.pos_final_2 == 90, 'girado-135': reloj.pos_final_2 == 135, 'girado-180': reloj.pos_final_2 == 180, 'girado-225': reloj.pos_final_2 == 225, 'girado-270': reloj.pos_final_2 == 270, 'girado-315': reloj.pos_final_2 == 315}">
+            <div class="contenido"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="col-2">
+      <div style="float: left; width: 25%;" *ngFor="let reloj of relojesNumero_5; let i = index;">
+        <div class="reloj">
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-45': reloj.position_1 == 45, 'gira-90': reloj.position_1 == 90, 'gira-135': reloj.position_1 == 135, 'gira-180': reloj.position_1 == 180, 'gira-225': reloj.position_1 == 225, 'gira-270': reloj.position_1 == 270, 'gira-315': reloj.position_1 == 315,
+                                        'girado-0': reloj.pos_final_1 == 0, 'girado-45': reloj.pos_final_1 == 45, 'girado-90': reloj.pos_final_1 == 90, 'girado-135': reloj.pos_final_1 == 135, 'girado-180': reloj.pos_final_1 == 180, 'girado-225': reloj.pos_final_1 == 225, 'girado-270': reloj.pos_final_1 == 270, 'girado-315': reloj.pos_final_1 == 315}">
+            <div class="contenido"></div>
+          </div>
+          <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-45': reloj.position_2 == 45, 'gira-90': reloj.position_2 == 90, 'gira-135': reloj.position_2 == 135, 'gira-180': reloj.position_2 == 180, 'gira-225': reloj.position_2 == 225, 'gira-270': reloj.position_2 == 270, 'gira-315': reloj.position_2 == 315,
+                                        'girado-0': reloj.pos_final_2 == 0, 'girado-45': reloj.pos_final_2 == 45, 'girado-90': reloj.pos_final_2 == 90, 'girado-135': reloj.pos_final_2 == 135, 'girado-180': reloj.pos_final_2 == 180, 'girado-225': reloj.pos_final_2 == 225, 'girado-270': reloj.pos_final_2 == 270, 'girado-315': reloj.pos_final_2 == 315}">
+            <div class="contenido"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+  
+  <!-- <div class="row">
+    <div class="col-1" style="float: left; width: 5%;" *ngFor="let reloj of relojes; let i = index;">
+      <div class="reloj">
+        <div class="aguja" [ngClass]="{'gira-0': reloj.position_1 == 0, 'gira-90': reloj.position_1 == 90, 'gira-180': reloj.position_1 == 180, 'gira-270': reloj.position_1 == 270}">
+          <div class="contenido"></div>
+        </div>
+        <div class="aguja" [ngClass]="{'gira-0': reloj.position_2 == 0, 'gira-90': reloj.position_2 == 90, 'gira-180': reloj.position_2 == 180, 'gira-270': reloj.position_2 == 270}">
+          <div class="contenido"></div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+
